@@ -1,0 +1,13 @@
+body{
+  background-color: aqua;
+}
+p {
+  font-family: Lato;
+}
+button{
+  font-family: 'Times New Roman', Times, serif;
+  float: left;
+  border: 1px solid rgb(87, 31, 45);
+  background-color: rgb(197, 8, 56);
+  color: antiquewhite;
+}

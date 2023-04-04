@@ -1,0 +1,29 @@
+<body>
+<form >
+  <div class="input-group">
+    <label for="numero1">numero1</label>
+    <input
+      type="number"
+      required
+      id="numero1"
+      name="numero1"
+      [(ngModel)]="numero1"
+    />
+  </div>
+  <div class="input-group">
+    <label for="numero2">numero2</label>
+    <input
+      type="number"
+      required
+      id="numero2"
+      name="numero2"
+      [(ngModel)]="numero2"
+    />
+    <p>Resultado : {{this.resultado}}</p>
+  </div>
+  <button (click)="onSuma()" type="submit">Suma</button>
+  <button (click)="onResta()" type="submit">Resta</button>
+  <button (click)="onMultiplicacion()" type="submit">Multiplicacion</button>
+  <button (click)="onDivision()" type="submit">division</button>
+</form>
+</body>
